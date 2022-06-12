@@ -1,6 +1,7 @@
 import React from 'react'
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SidebarRoute, SideBtnWrap } from './SidebarElements'
 import localizedStrings from '../localizedString'
+import Language from '../Navbar/Language'
 
 const Sidebar = ({isOpen,toggle}) => {
   return (
@@ -15,9 +16,10 @@ const Sidebar = ({isOpen,toggle}) => {
           <SidebarLink to='services' onClick={toggle}>{localizedStrings.Navbar.offers}</SidebarLink>
           <SidebarLink to='signup' onClick={toggle}>{localizedStrings.Navbar.therapy}</SidebarLink>
           <SidebarLink to='contact' onClick={toggle}>{localizedStrings.Navbar.contact}</SidebarLink>
+          <SidebarLink><Language/></SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to='/'> BTN </SidebarRoute>
+          
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
