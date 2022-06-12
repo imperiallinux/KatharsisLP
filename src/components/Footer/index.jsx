@@ -12,7 +12,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react
           SocialLogo, 
           SocialMedia, 
           SocialMediaWrap, 
-          WebsiteRights } from './FooterElements'
+          WebsiteRights,WebsiteRights2 } from './FooterElements'
 import { animateScroll as scroll } from 'react-scroll';
 import localizedStrings from '../localizedString'
 
@@ -52,6 +52,7 @@ const Footer = () => {
               KATHARSIS
             </SocialLogo>
             <WebsiteRights>KATHARSIS © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+            
             <SocialIcons>
               <SocialIconLink href='https://www.facebook.com/katharsisMNE ' target='_blank' arial-label='Facebook'>
                 <FaFacebook />
@@ -65,7 +66,7 @@ const Footer = () => {
             </SocialIcons>
           </SocialMediaWrap>
         </SocialMedia>
-      </FooterWrap>
+      </FooterWrap><WebsiteRights2>Vladan Babić & Mitar Mijatović</WebsiteRights2>
     </FooterContainer>
   )
 }

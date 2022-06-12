@@ -1,7 +1,6 @@
 import React from 'react'
-import {BrowserRouter as Router, Link} from 'react-router-dom';
-import localizedStrings from '../components/localizedString'
-import { LngBtn,Sel } from '../components/Navbar/NavbarElements'
+import localizedStrings from '../localizedString'
+import { LngBtn,Sel } from './NavbarElements'
 import ReactDOM from 'react-dom';
 
 
@@ -11,7 +10,7 @@ class Language extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-          language: 'en'
+          language: localStorage.lang ?  (localStorage.lang) : 'en' 
         }
         
         this.handleLanguageChange = this.handleLanguageChange.bind(this);
@@ -23,17 +22,20 @@ class Language extends React.Component {
         this.setState(prevState => ({
           language: lang
         }))
+        window?.localStorage.setItem('lang', lang)
+        window?.location?.reload();
       }
 
+
+
     render() {
-        localizedStrings.setLanguage(this.state.language);
+      localizedStrings.setLanguage(this.state.language);
         return (
             <LngBtn>
                 <Sel onChange={this.handleLanguageChange}>
-                    <option value='en'>ENG</option>
-                    <option value='cg'>MNE</option>
+                     <option value='en' selected={this.state.language === 'en' ? true  : false}>ENG</option>
+                    <option value='cg' selected={this.state.language === 'cg' ? true  : false}>MNE</option>
                 </Sel>
-                <br /><br />
                 {localizedStrings.how}
             </LngBtn>
            

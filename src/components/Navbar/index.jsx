@@ -13,6 +13,7 @@ import { Nav,
 import { animateScroll as scroll } from 'react-scroll';
 import localizedStrings from '../localizedString'
 import { IntlProvider, FormattedMessage, FormattedDate } from 'react-intl'
+import Language from './Language';
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false)
@@ -70,7 +71,7 @@ const Navbar = ({ toggle }) => {
               >{localizedStrings.Navbar.contact}</NavLinks>
             </NavItem>
           </NavMenu>
-          <NavBtn></NavBtn>
+          <NavBtn><Language/></NavBtn>
         </NavbarContainer>
       </Nav>
     </IconContext.Provider>

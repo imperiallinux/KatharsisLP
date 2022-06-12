@@ -85,6 +85,7 @@ export const NavLinks = styled(LinkS)`
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
+  background:'#153A6E';
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -117,5 +118,6 @@ width:200px;
 
 export const Sel = styled.select`
 color:'#153A6E';
+background:'#153A6E';
 border-radius: 50px;
 `

@@ -6,8 +6,6 @@ import { homeObjOne, homeObjTwo, homeObjThree,homeObjFour} from '../components/I
 import Navbar from '../components/Navbar'
 import Display from '../components/Display';
 import Sidebar from '../components/SideBar'
-import Language from './Language';
-import { LngBtn } from '../components/Navbar/NavbarElements'
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -20,7 +18,7 @@ const Home = () => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle}/>
-      <Hero /><Language/>
+      <Hero />
       <Info {...homeObjTwo}/>
       <Info {...homeObjOne}/>
       <Display/>

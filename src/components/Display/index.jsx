@@ -13,7 +13,6 @@ import {DisplayContainer,
         Header,
         BtnWrapper,
         DisplayCard,ButtonA, ImgTxt,Ref} from './DisplayElements'
-import {BrowserRouter as Router, Link} from 'react-router-dom';
 import localizedStrings from '../localizedString'
 
 
