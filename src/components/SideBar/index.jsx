@@ -1,5 +1,6 @@
 import React from 'react'
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SidebarRoute, SideBtnWrap } from './SidebarElements'
+import localizedStrings from '../localizedString'
 
 const Sidebar = ({isOpen,toggle}) => {
   return (
@@ -9,13 +10,14 @@ const Sidebar = ({isOpen,toggle}) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to='about' onClick={toggle}>About</SidebarLink>
-          <SidebarLink to='discover' onClick={toggle}>Discover</SidebarLink>
-          <SidebarLink to='services' onClick={toggle}>Services</SidebarLink>
-          <SidebarLink to='signup' onClick={toggle}>Sign up</SidebarLink>
+          <SidebarLink to='discover' onClick={toggle}>{localizedStrings.Navbar.bestoffer}</SidebarLink>
+          <SidebarLink to='about' onClick={toggle}>{localizedStrings.Navbar.aboutus}</SidebarLink>
+          <SidebarLink to='services' onClick={toggle}>{localizedStrings.Navbar.offers}</SidebarLink>
+          <SidebarLink to='signup' onClick={toggle}>{localizedStrings.Navbar.therapy}</SidebarLink>
+          <SidebarLink to='contact' onClick={toggle}>{localizedStrings.Navbar.contact}</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to='/signin'>Sign in</SidebarRoute>
+          <SidebarRoute to='/'> BTN </SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

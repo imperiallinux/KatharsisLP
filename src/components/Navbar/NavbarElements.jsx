@@ -3,7 +3,7 @@ import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
 export const Nav = styled.nav`
-  background: ${({scrollNav}) => (scrollNav ? '#000' : 'transparent')};
+  background: ${({scrollNav}) => (scrollNav ? '#153A6E' : 'transparent')};
   height: 80px;
   margin-top: -80px;
   display:flex;
@@ -68,16 +68,18 @@ export const NavItem = styled.li`
   height: 80px;
 `
 export const NavLinks = styled(LinkS)`
-  color: #fff;
+  color: #B09E61;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+  text-shadow: -0.5px 1px 0.5px rgba(21, 58, 110, 0.75);
+  font-weight: bold;
 
   &.active {
-    border-bottom: 3px solid #01bf71
+    border-bottom: 3px solid #B09E61
   }
 `
 export const NavBtn = styled.nav`
@@ -90,10 +92,10 @@ export const NavBtn = styled.nav`
 `
 export const NavBtnLink = styled(LinkR)`
   border-radius: 50px;
-  background: #01bf71;
+  background: #153A6E;
   white-space: nowrap;
   padding: 10px 22px;
-  color: #010606;
+  color: #153A6E;
   font-size: 16px;
   outline: none;
   border: none;
@@ -104,6 +106,16 @@ export const NavBtnLink = styled(LinkR)`
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;
-    color: #010606;
+    color: #B09E61;
   }
+`
+///////////////////////////////
+export const LngBtn = styled.div`
+background:'#153A6E';
+width:200px;
+`
+
+export const Sel = styled.select`
+color:'#153A6E';
+border-radius: 50px;
 `
