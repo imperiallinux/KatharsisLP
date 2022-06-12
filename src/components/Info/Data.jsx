@@ -1,4 +1,8 @@
-import localizedStrings from '../localizedString'
+import localizedStrings from '../localizedString';
+
+localizedStrings.setLanguage(
+  localStorage?.language ? localStorage.getItem('language') : 'en'
+);
 
 export const homeObjOne = {
   id: 'about',
@@ -14,7 +18,7 @@ export const homeObjOne = {
   alt: 'logo',
   dark: false,
   primary: false,
-  darkText: true
+  darkText: true,
 };
 
 export const homeObjTwo = {
@@ -36,7 +40,7 @@ export const homeObjTwo = {
   alt: 'SPA',
   dark: false,
   primary: false,
-  darkText: true
+  darkText: true,
 };
 
 export const homeObjThree = {
@@ -60,7 +64,7 @@ export const homeObjThree = {
   alt: 'logo',
   dark: false,
   primary: false,
-  darkText: true
+  darkText: true,
 };
 
 export const homeObjFour = {
@@ -80,5 +84,5 @@ export const homeObjFour = {
   alt: 'logo',
   dark: false,
   primary: false,
-  darkText: true
+  darkText: true,
 };
