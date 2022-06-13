@@ -27,7 +27,7 @@ export const InfoRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
-
+  
   grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
   @media screen and (max-width: 768px) {
@@ -78,7 +78,7 @@ export const Heading = styled.h1`
   font-weight: 600px;
   color: ${({lightText}) => (lightText ? '#f7f8fa' : '#153A6E')};
   @media screen and (max-width: 480px) {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }  
 `
 export const Subtitle  = styled.p`
