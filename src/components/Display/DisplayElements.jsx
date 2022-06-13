@@ -54,7 +54,7 @@ export const DisH1 = styled.h1`
   padding-top: 0px;
 
   @media screen and (max-width: 480px) {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }  
 `
 export const DisS = styled.s`
