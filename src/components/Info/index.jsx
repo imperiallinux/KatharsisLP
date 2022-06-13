@@ -51,8 +51,8 @@ const Info = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, de
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={img}/>
                 <Video1 autoPlay loop muted playsInline src={video} alt={alt}  type='video/mp4'/>
+                <Img src={img}/>
               </ImgWrap>
             </Column2>
           </InfoRow>
