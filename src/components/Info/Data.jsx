@@ -81,6 +81,7 @@ export const homeObjFour = {
   buttonLabel: 'Katharsis',
   imgStart: true,
   img: '/images/lg.png',
+  video: '/images/loc.jpg',
   alt: 'logo',
   dark: false,
   primary: false,

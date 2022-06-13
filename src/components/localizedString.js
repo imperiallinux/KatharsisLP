@@ -99,7 +99,7 @@ const localizedStrings = new LocalizedStrings({
         Hero:{
             title: 'Katharsis Wellness & Health',
             slogan: 'Home of wellbeing',
-            btn: 'Get Starte!',
+            btn: 'Get Started!',
         },
         Data:{
             One:{
