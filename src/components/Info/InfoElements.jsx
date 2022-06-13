@@ -52,11 +52,10 @@ export const Column2 = styled.div`
 export const TextWrapper = styled.div`
   max-width: 560px;
   padding-top: 0;
-  padding-bottom: 60px;
+  padding-bottom: 10px;
   @media screen and (max-width: 480px) {
     padding-bottom: 10px;
   }
-  
 `
 /*@media screen and (max-width: 480px) {
     font-size: 1px;
