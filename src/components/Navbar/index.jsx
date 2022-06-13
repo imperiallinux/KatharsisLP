@@ -8,11 +8,9 @@ import { Nav,
          NavMenu, 
          NavLinks, 
          NavItem, 
-         NavBtn, 
-         NavBtnLink } from './NavbarElements'
+         NavBtn } from './NavbarElements'
 import { animateScroll as scroll } from 'react-scroll';
 import localizedStrings from '../localizedString'
-import { IntlProvider, FormattedMessage, FormattedDate } from 'react-intl'
 import Language from './Language';
 
 const Navbar = ({ toggle }) => {
@@ -78,25 +76,4 @@ const Navbar = ({ toggle }) => {
     </>
   )
 }
-//<NavBtnLink to='/'></NavBtnLink>
 export default Navbar
-
-/*
-
-  const [language,setLanguage] = useState(localizedStrings);
-
-  const handleChange = (e) => {
-    setLanguage(e.target.value);
-  };
-
-
-
-<select onChange={handleChange} defaultValue={language}>
-              {['en', 'cg'].map((x) => (
-              <option key={localizedStrings.x}>{x}</option>
-              ))}</select>
-              <IntlProvider language={language} messages={localizedStrings[language]}>
-              </IntlProvider> 
-              <IntlProvider language={language} messages={localizedStrings[language]}>
-              </IntlProvider>
-*/

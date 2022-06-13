@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa'
   import {FooterContainer, 
           FooterWrap, 
           FooterLinkWrapper, 
@@ -34,8 +34,6 @@ const Footer = () => {
                 <FooterLink to='/'>{localizedStrings.Footer.workw}</FooterLink>
             </FooterLinkItems>
           </FooterLinkWrapper>
-                                        <FooterLinkWrapper><FooterLinkItems></FooterLinkItems></FooterLinkWrapper>
-                                        <FooterLinkWrapper><FooterLinkItems></FooterLinkItems></FooterLinkWrapper>
           <FooterLinkWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>{localizedStrings.Footer.link}</FooterLinkTitle>

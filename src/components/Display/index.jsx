@@ -10,9 +10,8 @@ import {DisplayContainer,
         Img,
         DisH1,
         DisS,Txt,
-        Header,
         BtnWrapper,
-        DisplayCard,ButtonA, ImgTxt,Ref} from './DisplayElements'
+        ButtonA, ImgTxt,Ref} from './DisplayElements'
 import localizedStrings from '../localizedString'
 
 

@@ -13,7 +13,6 @@ export const DisplayContainer = styled.div`
     height: 1300px;
   }
  `
-
  export const DisplayWrapper = styled.div`
     max-width: 1400px;
     margin: 0 auto;
@@ -21,7 +20,7 @@ export const DisplayContainer = styled.div`
     grid-template-columns: 1fr 1fr;
     grid-gap: 16px;
     padding: 0 50px;
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 555px) {
       grid-template-columns: 1fr;
       padding: 0 10px;
     } 
@@ -72,11 +71,6 @@ export const DisS = styled.s`
   }  
 `
 
-export const Header = styled.h1`
-    font-size: 80px;
-    color: white;
-    text-align: center;
-`
 export const DisplayCard = styled.div`
   background: #fff;
   display: flex;
@@ -84,9 +78,8 @@ export const DisplayCard = styled.div`
   border-radius: 10px;
   max-height: 340px;
   padding:  30px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  box-shadow: 0 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
-
   &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
