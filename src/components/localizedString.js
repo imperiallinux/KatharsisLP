@@ -19,7 +19,7 @@ const localizedStrings = new LocalizedStrings({
                 topLine: 'Pomoć za održavanju kvalitetnog i aktivnog načina života ',
                 headline: 'O NAMA',
                 description: 'Koncept KATHARSIS Wellness & Health započet je 1998.godine. Usko fokusiran i primjenjiv u hotelskoj ponudi je od 2006.  što ga čini  pionirom u Crnoj Gori kada je wellness ponuda u pitanju. KATHARSIS Wellness & Health danas predstavlja jedan od najboljih primjera integrisanog i holističkog pristupa wellness uslugama , estetskim inovativnim procedurama i fizikalnoj rehabilitaciji. Zasniva se na pružanju usluga visokog kvaliteta (terpeutskih i wellness masaža, estetskih tretmana, kvantne dijagnostike i nutricionizma,fizikalne rehabilitacije i fizičkae aktivnosti)i na individualno osmišljenim programima njege lica i tijela (anti-aging, detox, slimming i td.).U sklopu Katharsisa radi nas Centar za rehabilitaciju i estetiku od 2016god.',
-                buttonLabel: 'Idi na vrh',
+                buttonLabel: 'Najbolja Ponuda!',
             },
             Two:{
                 topLine: 'Total Body Design - centar za oblikovanje tijela',
@@ -30,7 +30,7 @@ const localizedStrings = new LocalizedStrings({
                 description4: '⮚ Limfna drenaza ',
                 description5: '⮚ Kavitacija ',
                 description6: '⮚ Pakovanja tijela ',
-                buttonLabel: 'Saznaj više!',
+                buttonLabel: 'Dobrodošli!',
             },
             Three:{
                 topLine: 'Zakažite pregled kod dr Dušana Nenezića (Mr.Sci.fizijatar, akupunkturolog, atlas specijalista)',
@@ -43,7 +43,7 @@ const localizedStrings = new LocalizedStrings({
                 description6: '• terapija vitaminima',
                 description7: '• mezoterapija bola - PROLO terapija ',
                 description8: '• plazma PRP',
-                buttonLabel: 'Idi na vrh',
+                buttonLabel: 'Najbolja Ponuda!',
             },
             Four:{
                 topLine: 'Kako do nas?',
@@ -106,7 +106,7 @@ const localizedStrings = new LocalizedStrings({
                 topLine: 'Help to maintain an active and quality lifestyle',
                 headline: 'ABOUT US',
                 description: 'The KATHARSIS Wellness & Health concept was launched in 1998. It has been closely focused and applicable in the hotel offer since 2006, which makes it a pioneer in Montenegro when it comes to wellness offers. Today, KATHARSIS Wellness & Health is one of the best examples of an integrated and holistic approach to wellness services, aesthetically innovative procedures and physical rehabilitation.It is based on the provision of high quality services (therapeutic and wellness massages, aesthetic treatments, quantum diagnostics and nutrition, physical rehabilitation and physical activity) and individually designed facial and body care programs (anti-aging, detox, slimming, etc.).As part of Katharsis, the Center for Rehabilitation and Aesthetics has been working since 2016.',
-                buttonLabel: 'Go to top',
+                buttonLabel: 'Best OFFER!',
             },
             Two:{
                 topLine: 'Total body design - body shaping center',
@@ -117,7 +117,7 @@ const localizedStrings = new LocalizedStrings({
                 description4: '⮚ Lymphatic drainage',
                 description5: '⮚ Cavitation',
                 description6: '⮚ Body wrap',
-                buttonLabel: 'Learn more!',
+                buttonLabel: 'Welcome!',
             },
             Three:{
                 topLine: 'Schedule an examination with Dr. Dušan Nenezić (Mr. Sci. Physiatrist, acupuncturist, atlas specialist)',
@@ -130,7 +130,7 @@ const localizedStrings = new LocalizedStrings({
                 description6: '• vitamin therapy',
                 description7: '• mesotherapy of pain - PROLO therapy ',
                 description8: '• plasma PRP',
-                buttonLabel: 'Go to top',
+                buttonLabel: 'Best OFFER!',
             },
             Four:{
                 topLine: 'How can you reach us?',

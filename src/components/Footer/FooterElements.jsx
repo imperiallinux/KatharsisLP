@@ -109,7 +109,7 @@ export const SocialIconLink = styled.a`
 `
 export const WebsiteRights2 = styled.h6`
   color: #fff;
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 100;
   text-align: right;
   padding-bottom: 20px;

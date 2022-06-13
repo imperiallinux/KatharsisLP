@@ -6,7 +6,7 @@ export const InfoContainer = styled.div`
 
   @media screen and  (max-width: 768px) {
     padding: 25px 0px;
-    height: 1150px;
+    height: 1000px;
   }
   @media screen and  (max-width: 820px) {
   }
@@ -22,9 +22,6 @@ export const InfoWrapper = styled.div`
   padding: 0 24px;
   justify-content: center;
 
-  @media screen and (max-width: 400px) {
-    height: 1300px;
-  }
 `
 export const InfoRow = styled.div`
   display: grid;
@@ -33,7 +30,8 @@ export const InfoRow = styled.div`
   grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
   @media screen and (max-width: 768px) {
-    grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)}
+    grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
+    display: block;
   }
 `
 export const Column1 = styled.div`

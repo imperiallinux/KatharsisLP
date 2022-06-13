@@ -1,5 +1,4 @@
 import React from 'react';
-import {BrowserRouter as Router, Link} from 'react-router-dom';
 import localizedStrings from '../localizedString';
 import {LngBtn, Sel} from './NavbarElements';
 import ReactDOM from 'react-dom';

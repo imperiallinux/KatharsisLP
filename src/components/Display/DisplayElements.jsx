@@ -16,7 +16,7 @@ export const DisplayContainer = styled.div`
  export const DisplayWrapper = styled.div`
     max-width: 1400px;
     margin: 0 auto;
-    display: grid;
+    display: inline-grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 16px;
     padding: 0 50px;

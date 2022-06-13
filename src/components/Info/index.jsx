@@ -35,7 +35,7 @@ const Info = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, de
                 <Subtitle7 darkText={darkText}>{description7}</Subtitle7>
                 <Subtitle8 darkText={darkText}>{description8}</Subtitle8>
                 <BtnWrap>
-                  <Button to='services'
+                  <Button to='discover'
                   smooth={true}
                   duration={500}
                   spy={true}
