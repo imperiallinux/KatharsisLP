@@ -48,12 +48,12 @@ const Info = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, de
               </TextWrapper>
             </Column1>
             <Column2>
-              <VideoWrap>
-                <Video1 autoPlay loop muted playsInline src={video} alt={alt}  type='video/mp4'/>
-              </VideoWrap>
               <ImgWrap>
                 <Img src={img}/>
               </ImgWrap>
+              <VideoWrap>
+                <Video1 autoPlay loop muted playsInline src={video} alt={alt}  type='video/mp4'/>
+              </VideoWrap>
             </Column2>
           </InfoRow>
         </InfoWrapper>

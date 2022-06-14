@@ -48,7 +48,7 @@ export const Column2 = styled.div`
   @media screen and (max-width: 555px) {
     padding-top: 20%;
     padding-bottom: 20%;
-    position: absolute;
+    position: relative;
   }
 `
 export const TextWrapper = styled.div`
@@ -186,5 +186,7 @@ export const VideoWrap = styled.div`
     max-width: 315px;
     max-height: 200px;
     padding-right: 0px;
+    top: inherit;
+    
   }
 `;
