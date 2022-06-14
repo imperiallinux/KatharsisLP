@@ -169,8 +169,11 @@ export const Video1 = styled.video`
   height: 50%;
   padding-right: 5px;
   @media screen and (max-width: 960px) {
+    height: 200%;
+    margin-top: 50%;
+    margin-bottom: 50%;
     max-width: 315px;
     padding-right: 0px;
+    object-fit: cover;
   }
-  
 `
