@@ -46,8 +46,9 @@ export const Column2 = styled.div`
   grid-area: col2;
 
   @media screen and (max-width: 555px) {
-    margin-bottom: 100px;
-    padding-top: 35%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    position: absolute;
   }
 `
 export const TextWrapper = styled.div`
