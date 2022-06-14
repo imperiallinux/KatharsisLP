@@ -46,7 +46,6 @@ export const Column2 = styled.div`
   grid-area: col2;
 
   @media screen and (max-width: 555px) {
-    padding-top: 20%;
     padding-bottom: 20%;
     position: relative;
   }
@@ -170,11 +169,11 @@ export const Img = styled.img`
 
 export const Video1 = styled.video`
   max-width: 555px;
-  height: 50%;
   padding-right: 5px;
   @media screen and (max-width: 960px) {
     max-width: 315px;
-    padding-right: 0px;
+    margin-top: 30%;
+    padding-right:0px;
   }
 `;
 
