@@ -148,10 +148,12 @@ export const BtnWrap = styled.div`
   display:flex;
   justify-content: flex-start;
 `;
+
 export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;
 `;
+
 export const Img = styled.img`
   width: 100%;
   height: 100%;
@@ -169,10 +171,18 @@ export const Video1 = styled.video`
   height: 50%;
   padding-right: 5px;
   @media screen and (max-width: 960px) {
-    margin-top: 50%;
-    margin-bottom: 50%;
     max-width: 315px;
     padding-right: 0px;
-    object-fit: cover;
   }
-`
+`;
+
+export const VideoWrap = styled.div`
+  max-width: 555px;
+  height: 100%;
+  @media screen and (max-width: 960px) {
+    margin-top: 30%;
+    max-width: 315px;
+    max-height: 200px;
+    padding-right: 0px;
+  }
+`;

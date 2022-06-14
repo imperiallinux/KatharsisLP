@@ -3,16 +3,14 @@ import { Button } from '../ButtonElements'
 import {InfoContainer, 
         InfoWrapper, 
         InfoRow, 
-        Column1, 
-        Column2, 
+        Column1, Column2, 
         TextWrapper, 
         TopLine, 
         Heading, 
         Subtitle,Subtitle2, Subtitle3, Subtitle4, Subtitle5, Subtitle6, Subtitle7, Subtitle8,  
         BtnWrap, 
-        ImgWrap, 
-        Img,
-        Video1 } from './InfoElements'
+        ImgWrap,VideoWrap, 
+        Img,Video1 } from './InfoElements'
 
 const Info = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, 
   description2,description3,description4,description5,description6,description7,description8,
@@ -50,8 +48,10 @@ const Info = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, de
               </TextWrapper>
             </Column1>
             <Column2>
-              <ImgWrap>
+              <VideoWrap>
                 <Video1 autoPlay loop muted playsInline src={video} alt={alt}  type='video/mp4'/>
+              </VideoWrap>
+              <ImgWrap>
                 <Img src={img}/>
               </ImgWrap>
             </Column2>
