@@ -180,7 +180,7 @@ export const VideoWrap = styled.div`
   max-width: 555px;
   height: 100%;
   @media screen and (max-width: 960px) {
-    margin-top: 30%;
+    margin-top: -30%;
     max-width: 315px;
     max-height: 200px;
     padding-right: 0px;
