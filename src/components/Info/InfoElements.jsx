@@ -162,8 +162,10 @@ export const Img = styled.img`
   padding-right: 10px;
   padding-top: 60px;
   @media screen and (max-width: 960px) {
+    max-width: 320px;
     padding-top: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
+    padding-right: 0px;
   }
 `;
 

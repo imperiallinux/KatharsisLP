@@ -72,7 +72,8 @@ class Display extends React.Component {
                             <Txt>
                                <span style={{fontWeight: 'bold'}}>- Global lift</span> {localizedStrings.Offer.lift}<br></br> 
                                 <span style={{fontWeight: 'bold'}}>- Corrective</span> {localizedStrings.Offer.corrective}<br></br> 
-                                <span style={{fontWeight: 'bold'}}>- Timeless prodigy </span> {localizedStrings.Offer.prodigy} <Ref href = "/https://skeyndor.com/en/" >LINK</Ref> 
+                                <span style={{fontWeight: 'bold'}}>- Timeless prodigy </span> {localizedStrings.Offer.prodigy} 
+                                <Ref href = "https://skeyndor.com/en/" >LINK</Ref> 
                              </Txt>
                         </ButtonA>
                     </BtnWrapper>
@@ -90,8 +91,8 @@ class Display extends React.Component {
                     <BtnWrapper>
                         <ButtonA onClick={this.handleClick}>
                             <Txt>
-                               <span style={{fontWeight: 'bold'}}>LPG-</span>  {localizedStrings.Offer.lpg}
-                               <Ref href = "https://www.endermologie.com/en/" > LINK</Ref>   
+                                <span style={{fontWeight: 'bold'}}>LPG-</span>  {localizedStrings.Offer.lpg}
+                                <Ref href = "https://www.endermologie.com/en/" > LINK</Ref>   
                                 <br></br> 
                                 <span style={{fontWeight: 'bold'}}>Endospheres-</span>  {localizedStrings.Offer.endosfera}
                                 <Ref href = "https://www.endospheres.com/" > LINK</Ref> 
