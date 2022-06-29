@@ -13,6 +13,8 @@ export const DisplayContainer = styled.div`
     height: 1300px;
   }
  `
+
+ 
  export const DisplayWrapper = styled.div`
     max-width: 1400px;
     margin: 0 auto;

@@ -14,6 +14,7 @@ const Home = () => {
     setIsOpen(!isOpen);
   }
 
+  
   return (
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
